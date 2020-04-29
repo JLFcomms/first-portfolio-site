@@ -1,0 +1,242 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/***** GRID *****/
+#container {
+    width: 1200px;
+    margin: auto;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+        height: 800px;
+        background: url('../img/hero-image.png') no-repeat;
+}
+
+h1 {
+    font-size: 60pt;
+    font-weight:bold;
+    color: #bdbf09;
+    text-align: center;
+    padding: 2px;
+    margin: 30px;
+    position: relative;
+    top: 270px;
+    right: auto;
+    bottom: 270px;
+    left: auto;
+}
+
+h2
+    {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 48pt;
+    font-weight: normal;
+    color: #087e8b;
+    text-align: center;
+    line-height: 80px;
+    padding: 2px;
+    margin: 20px 100px 20px 100px; 
+    position: relative;
+    top: 270px;
+    right: auto;
+    bottom: 270px;
+    left: auto;
+    }
+
+/***** WORK *****/
+#work .full-width {
+    height: 1450px;
+}
+
+#work .full-width h3 {
+    text-align: center;
+}
+
+#work .half-width img {
+    padding: 30px 2px 30px 2px;
+}
+
+#work .half-width .rogue-pickings {
+    position: relative;
+    top: -15px;
+    right: 10px;
+    bottom: 20px;
+    left: 10px;
+}
+
+#work .half-width .jubilee-austen {
+    position: relative;
+    top: -5px;
+    right: 10px;
+    bottom: 20px;
+    left: 10px;
+}
+
+#work .half-width .recipe-collection {
+    position: relative;
+    top: 40px;
+    right: 10px;
+    bottom: 20px;
+    left: 10px;
+}
+
+#work h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: #095156;
+}
+
+#work h4 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24pt;
+    color: #095156;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#work h5 {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24pt;
+    font-weight: normal;
+    color: #095156;
+    position: relative;
+    top: -50px;
+    right: 0;
+    bottom: -50px;
+    left: 0px;
+}
+
+#work p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24pt;
+    font-weight: normal;
+    color: #095156;
+    position: relative;
+    top: -50px;
+    right: 0;
+    bottom: -5px;
+    left: 0;
+}
+
+/***** ABOUT *****/
+#about {
+    width: 1400px;
+    height: 700px;
+    background-color: #087e8b;
+}
+
+#about .full-width h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36pt;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+}
+
+#about .half-width img {
+    padding: 5px 50px 5px 50px;
+    position: relative;
+    top: 70px;
+}
+
+#about .half-width .my-bio {
+    padding: 20px;
+}
+
+#about h4 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+}
+
+#about p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+}
+
+/***** CONTACT *****/
+#contact {
+    width: 1400px;
+    height: 480px;
+    background-color: #095156;
+    overflow: auto;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 2px;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    top: -50px;
+}
+
+#contact h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36pt;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+#contact h4 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+    position: relative;
+    top: -25px;
+}
+
+#contact p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+    position: relative;
+    top: -50px;
+}
+
+#contact h6 {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16pt;
+    color: #ffffff;
+    position: relative;
+    top: 80px;
+    left: -380px;
+    bottom: 5px;
+    right: 100px;
+}
